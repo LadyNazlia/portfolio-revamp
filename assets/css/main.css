@@ -116,6 +116,11 @@ input, select, textarea {
 		margin-bottom: 0 !important;
 	}
 
+	@font-face  {
+		font-family: Hacked;
+		src: url(https://hackedfont.com/HACKED.ttf);
+	}
+
 /* Container */
 
 	.container {
@@ -1457,11 +1462,23 @@ input, select, textarea {
 
 	.bordered-feature-image {
 		display: block;
-		/* background: #fff url("images/bg04.png"); */
 		padding: 10px;
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		margin: 0 0 1.5em 0;
 		outline: 0;
+	}
+
+	.profile {
+		min-height: 275px;
+	}
+
+	.bordered-feature-image #profile {
+		display: block;
+		margin-top: -4%;
+		width: 100%;
+		min-height: 100px;
+		max-height: fit-content;
+		max-width: 350px;
 	}
 
 		.bordered-feature-image img {
@@ -1473,6 +1490,8 @@ input, select, textarea {
 			max-width: 350px;
 		}
 
+		
+
 	.button-large {
 		background-image: -moz-linear-gradient(top, #E46500, #E46500);
 		background-image: -webkit-linear-gradient(top, #E46500, #E46500);
@@ -1483,6 +1502,7 @@ input, select, textarea {
 		color: #fff;
 		text-decoration: none;
 		font-size: 1.75em;
+		font-family: Hacked;
 		height: 2em;
 		line-height: 2.125em;
 		font-weight: 300;

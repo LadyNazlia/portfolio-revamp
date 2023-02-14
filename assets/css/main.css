@@ -1680,6 +1680,23 @@ input, select, textarea {
 			border-bottom: solid 1px #e2e6e8;
 		}
 
+/* Contact Form */
+	#contactForm {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: -2.5%;
+	}
+
+	#contactForm input, textarea {
+		margin-top: 2%;
+		
+	}
+
+	#contactForm input:focus-within {
+		border: 2px solid #E46500;
+	}
+
 /* Footer */
 
 	#footer {

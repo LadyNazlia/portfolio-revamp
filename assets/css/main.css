@@ -1693,8 +1693,29 @@ input, select, textarea {
 		
 	}
 
-	#contactForm input:focus-within {
+	#contactForm input:focus-within, textarea:focus-within {
 		border: 2px solid #E46500;
+	}
+
+	#submitBut {
+		width:min-content;
+		background-image: -moz-linear-gradient(top, #E46500, #E46500);
+		background-image: -webkit-linear-gradient(top, #E46500, #E46500);
+		background-image: -ms-linear-gradient(top, #E46500, #E46500);
+		background-image: linear-gradient(top, #E46500, #E46500);
+		display: inline-block;
+		background-color: #E46500;
+		color: #fff;
+		text-decoration: none;
+		font-size: 1em;
+		font-family: Hacked;
+		line-height: 2.125em;
+		font-weight: 300;
+		padding: 0 45px;
+		outline: 0;
+		border-radius: 10px;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75);
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5)	
 	}
 
 /* Footer */

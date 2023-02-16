@@ -98,8 +98,11 @@ input, select, textarea {
 		font-weight: 300;
 	}
 
+	h4 {
+		font-weight: bold;
+	}
 	ul, ol, p, dl {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	a {
@@ -1678,6 +1681,10 @@ input, select, textarea {
 
 		#content .check-list li {
 			border-bottom: solid 1px #e2e6e8;
+		}
+
+		.article > h5 {
+			text-decoration: underline;
 		}
 
 /* Contact Form */

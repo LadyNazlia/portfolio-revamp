@@ -1579,7 +1579,7 @@ input, select, textarea {
 				}
 
 		.subpage #header > .container {
-			height: 155px;
+			max-height: 150px;
 		}
 
 		#header #logo {

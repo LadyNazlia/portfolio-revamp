@@ -1438,7 +1438,7 @@ input, select, textarea {
 	.check-list li {
 		padding: 0.7em 0 0.7em 45px;
 		font-size: 1.2em;
-		background: url("images/icon-checkmark.png") 0px 1.05em no-repeat;
+		list-style: none;
 	}
 
 		.check-list li:first-child {

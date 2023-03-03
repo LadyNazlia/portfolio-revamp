@@ -1613,6 +1613,10 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 		}
 
+		a.feature-image img {
+			border: 2px solid black;
+		}
+
 /* Features */
 
 	#features {

@@ -1406,6 +1406,12 @@ input, select, textarea {
 	.quote-list li {
 		padding: 1em 0 1em 0;
 		overflow: hidden;
+		
+	}
+
+	.quote-list li a, .quote-list p, .quote-list span {
+		text-decoration: none;
+		color: #474f51;
 	}
 
 		.quote-list li:first-child {
@@ -1672,7 +1678,7 @@ input, select, textarea {
 			font-size: 1.8em;
 			font-weight: 300;
 			margin-top: 1%;
-			margin-bottom: -2%;
+			margin-bottom: o;
 		}
 
 		#content a {
